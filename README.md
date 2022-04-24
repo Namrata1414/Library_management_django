@@ -3,7 +3,7 @@
 ## Installation
 
 First of all install python on your system. Then run `pip install -r requirements.txt` to required settings.
-Then run `python manage.py makemigration` `python manage.py migrate`.
+Then run `python manage.py makemigrations` `python manage.py migrate`.
 Finally it's time to create superuser/admin who will be managing students and books!
 Run `python manage.py createsuperuser` and enter the required data.
 After that run `python manage.py runserver` and head over to the browser to http://127.0.0.1:8000 and login.
